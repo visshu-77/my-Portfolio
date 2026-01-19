@@ -24,12 +24,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 function Home() {
-
-    const texts = [
-        "Web Developer",
-        "Frontend Developer",
-    ];
-
     const speed = 70;
     const deleteSpeed = 70;
     const delay = 500;
