@@ -145,7 +145,7 @@
     }
 
     .img.about-section-main-image {
-        width: 100%;
+        width: 100% !important;
     }
 
     .about-section-second-div {
