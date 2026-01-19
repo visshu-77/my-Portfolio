@@ -70,7 +70,7 @@ function Footer() {
                             <p className="footer-third-inner-p">
                                 © 2025. All rights reserved
                             </p>
-                            <a href="" className="footer-third-inner-a">Back To Top</a>
+                            <a className="footer-third-inner-a">Back To Top</a>
                         </div>
                     </div>
                 </div>
