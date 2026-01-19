@@ -2,8 +2,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 import logo from '../assets/logo.png';
-import mainImage from '../assets/mainImage.png';
-import dummy from '../assets/dummy.png';
 
 import '../style/Home.css';
 import '../style/mobile.css';
@@ -24,7 +22,6 @@ import skill7 from '../assets/skill7.png';
 import { FaFacebook } from 'react-icons/fa';
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
 
 function Home() {
 
@@ -218,7 +215,11 @@ function Home() {
                                 </div>
 
                                 <div className="hero-section-download-button">
+<<<<<<< HEAD
                                     <a href="https:google.com" rel="noopener noreferrer" className="hero-section-download-cv-button">Download CV</a>
+=======
+                                    <a href="https://google.com" rel="noopener noreferrer" className="hero-section-download-cv-button">Download CV</a>
+>>>>>>> a098d6a4871f43f1e75bbfe1cca94da4bef2c9a2
                                 </div>
                             </div>
                         </div>
@@ -257,7 +258,7 @@ function Home() {
                                 </div>
                                 <div className="about-section-fourth-inner-div">
                                     <div className="about-section-fourth-inner2-div">
-                                        <a href="" className="about-section-first-a-tag">
+                                        <a href="https://google.com" rel="noopener noreferrer" className="about-section-first-a-tag">
                                             <img src={arrowImage} alt="" className="about-section-line-image" />
                                         </a>
                                         <div className="about-section-fifth-div">
@@ -318,7 +319,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href=""> Associate Software Developer,TechInfini</a>
+                                            <a href="https://google.com" rel="noopener noreferrer"> Associate Software Developer,TechInfini</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (Sep. 2025 - Present)
@@ -331,7 +332,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href=""> Website Developer, Appzeto</a>
+                                            <a href="https://google.com" rel="noopener noreferrer"> Website Developer, Appzeto</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (Jan. 2025 - Aug. 2025)
@@ -344,7 +345,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="">Full Stack Developer, Logical Softech</a>
+                                            <a href="https://google.com" rel="noopener noreferrer">Full Stack Developer, Logical Softech</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (Sep. 2024 - dec. 2024)
@@ -379,7 +380,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="">Graduation in computer Science</a>
+                                            <a href="https://google.com" rel="noopener noreferrer" >Graduation in computer Science</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2021 - 2025)
@@ -392,7 +393,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href=""> Senior Secondary </a>
+                                            <a href="https://google.com" rel="noopener noreferrer" > Senior Secondary </a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2020-2021)
@@ -406,7 +407,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="">Secondary </a>
+                                            <a href="https://google.com" rel="noopener noreferrer" >Secondary </a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2018-2019)

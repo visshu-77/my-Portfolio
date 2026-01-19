@@ -27,16 +27,16 @@ function Footer() {
                                     </p>
 
                                     <div className="footer-second-inner1-inner1-div">
-                                        <a href="">Baghana, Indore, India</a>
-                                        <a href="">+91-9294885826</a>
-                                        <a href="">vishal676570@gmail.com</a>
+                                        <a href="https://hostwebs.site/CZHiD1">Baghana, Indore, India</a>
+                                        <a href="tel:9294885826">+91-9294885826</a>
+                                        <a href="mailto:vishal676570@gmail.com">vishal676570@gmail.com</a>
                                     </div>
 
                                     <div className="footer-second-inner1-inner2-div">
-                                        <a href="">WHATSAPP</a>
-                                        <a href="">FACEBOOK</a>
-                                        <a href="">LINKDIN</a>
-                                        <a href="">TWITTER</a>
+                                        <a href="https://wa.me/9294885826">WHATSAPP</a>
+                                        <a href="https://facebook.com">FACEBOOK</a>
+                                        <a href="https://linkedin.com">LINKDIN</a>
+                                        <a href="https://twitter.com">TWITTER</a>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ function Footer() {
                             <p className="footer-third-inner-p">
                                 © 2025. All rights reserved
                             </p>
-                            <a href="" className="footer-third-inner-a">Back To Top</a>
+                            <a className="footer-third-inner-a">Back To Top</a>
                         </div>
                     </div>
                 </div>
