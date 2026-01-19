@@ -66,7 +66,7 @@ function Home() {
         }
 
         return () => clearTimeout(timeout);
-    }, [charIndex, isDeleting, textIndex]);
+    }, [charIndex, isDeleting, textIndex, texts]);
 
 
 
@@ -261,7 +261,7 @@ function Home() {
                                             <p className="about-section-first-p-tag">
                                                 I am a Software Developer experienced in building scalable web applications using React, MERN stack, Shopify, and WordPress, with 35+ projects, 15+ clients, and a passion for continuous learning.
                                             </p>
-                                            <a href="" className="about-section-second-a-tag">
+                                            <a href="https://google.com" className="about-section-second-a-tag">
                                                 <span className="about-section-fourth-span">
                                                     <i className="about-section-first-i-tag">
                                                     </i>
