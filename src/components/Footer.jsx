@@ -13,7 +13,7 @@ function Footer() {
                         LET'S CONNECT WITH ME
                     </div>
 
-                    <a href="" className="footer-first-a-tag">
+                    <a href="mailto:vishal676570@gmail.com" className="footer-first-a-tag">
                         vishal676570@gmail.com
                     </a>
 

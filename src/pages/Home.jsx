@@ -215,11 +215,7 @@ function Home() {
                                 </div>
 
                                 <div className="hero-section-download-button">
-<<<<<<< HEAD
-                                    <a href="https:google.com" rel="noopener noreferrer" className="hero-section-download-cv-button">Download CV</a>
-=======
                                     <a href="https://google.com" rel="noopener noreferrer" className="hero-section-download-cv-button">Download CV</a>
->>>>>>> a098d6a4871f43f1e75bbfe1cca94da4bef2c9a2
                                 </div>
                             </div>
                         </div>
@@ -380,7 +376,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="https://google.com" rel="noopener noreferrer" >Graduation in computer Science</a>
+                                            <a href="">Graduation in computer Science</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2021 - 2025)
@@ -393,7 +389,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="https://google.com" rel="noopener noreferrer" > Senior Secondary </a>
+                                            <a href="https://google.com" rel="noopener noreferrer"> Senior Secondary </a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2020-2021)
@@ -407,7 +403,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="https://google.com" rel="noopener noreferrer" >Secondary </a>
+                                            <a href="https://google.com" rel="noopener noreferrer">Secondary </a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2018-2019)
