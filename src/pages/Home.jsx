@@ -39,34 +39,35 @@ function Home() {
     const [isDeleting, setIsDeleting] = useState(false);
     const [displayText, setDisplayText] = useState("");
 
-    useEffect(() => {
-        const currentText = texts[textIndex];
+useEffect(() => {
+    const texts = ["Web Developer", "Frontend Developer"]; // move here
+    const currentText = texts[textIndex];
 
-        let timeout;
+    let timeout;
 
-        if (!isDeleting) {
-            timeout = setTimeout(() => {
-                setDisplayText(currentText.slice(0, charIndex + 1));
-                setCharIndex(charIndex + 1);
+    if (!isDeleting) {
+        timeout = setTimeout(() => {
+            setDisplayText(currentText.slice(0, charIndex + 1));
+            setCharIndex(charIndex + 1);
 
-                if (charIndex + 1 === currentText.length) {
-                    setTimeout(() => setIsDeleting(true), delay);
-                }
-            }, speed);
-        } else {
-            timeout = setTimeout(() => {
-                setDisplayText(currentText.slice(0, charIndex - 1));
-                setCharIndex(charIndex - 1);
+            if (charIndex + 1 === currentText.length) {
+                setTimeout(() => setIsDeleting(true), delay);
+            }
+        }, speed);
+    } else {
+        timeout = setTimeout(() => {
+            setDisplayText(currentText.slice(0, charIndex - 1));
+            setCharIndex(charIndex - 1);
 
-                if (charIndex - 1 === 0) {
-                    setIsDeleting(false);
-                    setTextIndex((prev) => (prev + 1) % texts.length);
-                }
-            }, deleteSpeed);
-        }
+            if (charIndex - 1 === 0) {
+                setIsDeleting(false);
+                setTextIndex((prev) => (prev + 1) % texts.length);
+            }
+        }, deleteSpeed);
+    }
 
-        return () => clearTimeout(timeout);
-    }, [charIndex, isDeleting, textIndex, texts]);
+    return () => clearTimeout(timeout);
+}, [charIndex, isDeleting, textIndex]);
 
 
 
@@ -376,7 +377,7 @@ function Home() {
                                 <div className="education-sixth-inner2-div">
                                     <div className="education-sixth-inner3-div">
                                         <h4 className="education-first-h4">
-                                            <a href="">Graduation in computer Science</a>
+                                            <a href="https://google.com">Graduation in computer Science</a>
                                         </h4>
                                         <span className="education-third-span">
                                             (2021 - 2025)
