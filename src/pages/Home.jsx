@@ -2,8 +2,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 import logo from '../assets/logo.png';
-import mainImage from '../assets/mainImage.png';
-import dummy from '../assets/dummy.png';
 
 import '../style/Home.css';
 import '../style/mobile.css';
@@ -24,7 +22,6 @@ import skill7 from '../assets/skill7.png';
 import { FaFacebook } from 'react-icons/fa';
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
 
 function Home() {
 
