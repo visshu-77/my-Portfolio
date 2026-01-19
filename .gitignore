@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+.env.production
+# Ignore uploaded files
+src/uploads/
+# Keep uploads directory structure but ignore its contents
+!src/uploads/.gitkeep
