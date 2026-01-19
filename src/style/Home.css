@@ -1,4 +1,3 @@
-
 body {
     background-color: #141413;
 }
@@ -8,8 +7,8 @@ body {
     --white: #fdf9cf;
     --cmborder: rgb(38, 37, 37);
     --title: #181818;
-        --bs-link-hover-color-rgb: 10, 88, 202;
-            --cusborder: rgb(38, 37, 37);
+    --bs-link-hover-color-rgb: 10, 88, 202;
+    --cusborder: rgb(38, 37, 37);
     --cmn-shadow: inset 4px 4px 12px rgb(56 53 53 / 27%), inset -4px -4px 12px rgb(58 56 56 / 32%);
 }
 
@@ -18,7 +17,7 @@ body {
 /* --------------------------------------------first div------------------------------------------------- */
 
 
-.hero-section-mobile-main{
+.hero-section-mobile-main {
     display: none;
 }
 
@@ -36,7 +35,7 @@ section.hero-section {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     gap: 30px;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -394,6 +393,7 @@ a.about-section-first-a-tag {
     animation: 2s linear 0s infinite normal none running updown;
     width: 35%;
 }
+
 p.about-section-first-p-tag {
     font-size: 16px;
     font-family: 'Unbounded';
@@ -422,7 +422,7 @@ a.about-section-second-a-tag {
     transition: all 0.3s;
 }
 
-a.about-section-second-a-tag::before{
+a.about-section-second-a-tag::before {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -434,8 +434,9 @@ a.about-section-second-a-tag::before{
     transition: all 0.4s;
     opacity: 0;
 }
-a.about-section-second-a-tag::after{
-        border-radius: 50%;
+
+a.about-section-second-a-tag::after {
+    border-radius: 50%;
     content: "";
     position: absolute;
     left: 0;
@@ -452,6 +453,7 @@ a.about-section-second-a-tag::after{
     height: 100% !important;
     left: -100% !important;
 }
+
 a.about-section-second-a-tag:hover:after {
     left: 0 !important;
     top: 0 !important;
@@ -484,10 +486,11 @@ span.about-section-fifth-span {
 }
 
 
-a.about-section-second-a-tag:hover span{
-    color:black;
+a.about-section-second-a-tag:hover span {
+    color: black;
 }
-.about-section-second-a-tag{
+
+.about-section-second-a-tag {
     overflow: hidden;
 }
 
@@ -503,6 +506,7 @@ section.Education-main-section {
     margin-bottom: 35px;
     animation: fadeIn 1s ease-in-out;
 }
+
 .education-first-div {
     margin-bottom: 60px;
 }
@@ -512,14 +516,15 @@ section.Education-main-section {
 
 .education-fifth-inner-div {
     box-shadow: var(--cmn-shadow);
-    padding: 20px;
+    padding: 2px;
     width: 48px;
     height: 48px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    margin-left:-25px;
+    margin-left: -28px;
 }
+
 .education-fifth-inner-div i:before {
     position: absolute;
     left: -6px;
@@ -528,6 +533,7 @@ section.Education-main-section {
     content: "";
     background: var(--white);
     border-radius: 50%;
+    transform: translateY(20px);
 }
 
 
@@ -549,6 +555,7 @@ span.education-first-span {
     align-items: center;
     font-family: "Unbounded", sans-serif;
 }
+
 span.education-first-span::before {
     position: absolute;
     left: 25px;
@@ -560,14 +567,14 @@ span.education-first-span::before {
 }
 
 h2.education-first-h2 {
-        font-size: 52px;
+    font-size: 52px;
     line-height: 62px;
     font-weight: 500;
-        margin-top: 1rem !important;
+    margin-top: 1rem !important;
     font-family: "Unbounded", sans-serif;
-        color: var(--white);
+    color: var(--white);
     text-transform: capitalize;
-        margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 span.education-second-span {
@@ -583,13 +590,13 @@ span.education-second-span {
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-right: calc(-0.5 * var(--bs-gutter-x));
     margin-left: calc(-0.5 * var(--bs-gutter-x));
-        justify-content: space-between !important;
-            gap: 80px;
+    justify-content: space-between !important;
+    gap: 80px;
 }
 
 .education-fourth-div {
-            display: block !important;
-            width: 8%;
+    display: block !important;
+    width: 8%;
 }
 
 .education-fifth-div {
@@ -610,8 +617,8 @@ span.education-second-span {
 /* experience grid */
 .education-sixth-inner2-div {
     box-shadow: inset 4px 4px 12px rgba(56, 53, 53, 0.27), inset -4px -4px 12px rgba(58, 56, 56, 0.32);
-        padding: 40px 30px;
-        border-radius: 8px;
+    padding: 40px 30px;
+    border-radius: 8px;
 }
 
 .education-sixth-inner1-div {
@@ -681,7 +688,7 @@ section.skill-main-section {
 }
 
 section.skill-main-section.show {
-  animation: fadeIn 1s ease-in-out forwards;
+    animation: fadeIn 1s ease-in-out forwards;
 }
 
 .skill-first-div {
@@ -723,7 +730,8 @@ h2.skill-first-div-first-h2 {
     text-transform: capitalize;
     margin-bottom: 0.5rem;
 }
-span.skill-first-div-second-span{
+
+span.skill-first-div-second-span {
     -webkit-text-stroke: 1px var(--white);
     -webkit-text-fill-color: transparent;
 }
@@ -747,10 +755,11 @@ span.skill-first-div-second-span{
     align-items: center;
     justify-content: center;
 }
+
 .skill-second-inner2-div {
     display: flex;
     gap: 6px;
-        max-width: 203px;
+    max-width: 203px;
     margin: auto;
 }
 
@@ -771,7 +780,7 @@ h3.skill-second-inner3-1-div-h3 {
     font-family: "Unbounded", sans-serif;
 }
 
-.skill-second-inner3-div img{
+.skill-second-inner3-div img {
     max-width: 100%;
     height: 80px;
     width: 80px;
@@ -783,59 +792,65 @@ h3.skill-second-inner3-1-div-h3 {
 /* Animations */
 
 @keyframes slideLeft {
-    from{
+    from {
         transform: translateX(-100%);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateX(0);
         opacity: 1;
     }
 }
 
 @keyframes slideRight {
-    from{
+    from {
         transform: translateX(100%);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateX(0);
         opacity: 1;
     }
 }
 
 @keyframes slideUp {
-    from{
+    from {
         transform: translateY(-100%);
         opacity: 0;
     }
-    to{
+
+    to {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-@keyframes upRight{
+@keyframes upRight {
     0% {
-        transform:translateY(0);
+        transform: translateY(0);
     }
+
     50% {
-        transform:translateY(-25px);
+        transform: translateY(-25px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
 
 
 
-@keyframes fadeIn{
-    from{
-       opacity: 0;
-       transform: translateY(100px);
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
     }
-    to{
-       opacity: 1;
-       transform: translateY(0);
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
