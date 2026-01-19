@@ -218,7 +218,7 @@ function Home() {
                                 </div>
 
                                 <div className="hero-section-download-button">
-                                    <a href="" className="hero-section-download-cv-button">Download CV</a>
+                                    <a href="https:google.com" rel="noopener noreferrer" className="hero-section-download-cv-button">Download CV</a>
                                 </div>
                             </div>
                         </div>
