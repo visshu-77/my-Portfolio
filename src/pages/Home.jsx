@@ -69,9 +69,6 @@ useEffect(() => {
     return () => clearTimeout(timeout);
 }, [charIndex, isDeleting, textIndex]);
 
-
-
-
     /* menu function logic  */
 
     const [menuOpen, setMenuOpen] = useState(false);
